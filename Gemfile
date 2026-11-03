@@ -15,6 +15,13 @@ group :development do
   gem 'rake-compiler', '~> 1.0', '>= 1.0.7', '!= 1.2.4'
   gem 'rake-compiler-dock', '~> 1.0'
   gem 'pry', '~> 0.11', platforms: :mri
+
+  # Duel requires Ruby 3.4 or later
+  if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('3.4')
+    gem 'duel', '>= 0.1.4'
+    gem 'duel-gvl', '>= 0.1.2'
+    gem 'stackprof', platforms: :mri
+  end
 end
 
 group :documentation, optional: true do

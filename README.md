@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/concurrent-ruby.svg)](http://badge.fury.io/rb/concurrent-ruby)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
 [![Gitter chat](https://img.shields.io/badge/IRC%20(gitter)-devs%20%26%20users-brightgreen.svg)](https://gitter.im/ruby-concurrency/concurrent-ruby)
+[![Duel](https://raw.githubusercontent.com/ruby-concurrency/concurrent-ruby/duel/badge/badge.svg)](https://github.com/sferik/duel-ruby)
 
 Modern concurrency tools for Ruby. Inspired by
 [Erlang](http://www.erlang.org/doc/reference_manual/processes.html),
